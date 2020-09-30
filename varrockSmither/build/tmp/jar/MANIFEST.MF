@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Plugin-Version: 0.1.0
+Plugin-Id: varrocksmither-plugin
+Plugin-Provider: illumine
+Plugin-Dependencies: botutils-plugin
+Plugin-Description: harastwon - smiths item of choice at varrock smither
+ y
+Plugin-License: 3-Clause BSD License
+

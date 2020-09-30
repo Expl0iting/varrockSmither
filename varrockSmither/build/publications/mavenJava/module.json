@@ -1,0 +1,148 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.openosrs.externals",
+    "module": "varrockSmither",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.2.1",
+      "buildId": "7fpwiizl5zghrhjoy52wcc7b6u"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "varrockSmither-0.1.0.jar",
+          "url": "varrockSmither-0.1.0.jar",
+          "size": 6378,
+          "sha512": "c35d3c8614628c7f266b511bb9645418e39ae55dbaa5abee80195976147844b898fa7eb24584aa342520ddc1dc354b0ebe1a21c2e89ed66e4a94c10087122ac8",
+          "sha256": "86d0b8e2cf03d8a54a64b8bdca2cf8c738939f21ad228d38c29d961e2e9000f8",
+          "sha1": "bfcdb439a96b0659d7330285b7982344fc3fd227",
+          "md5": "685f03337486ed7236259366275e4154"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.6"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "28.2-jre"
+          }
+        },
+        {
+          "group": "com.google.inject",
+          "module": "guice",
+          "version": {
+            "requires": "4.2.3"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "guice",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "no_aop"
+            }
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.5.0"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava3",
+          "module": "rxjava",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "net.sf.jopt-simple",
+          "module": "jopt-simple",
+          "version": {
+            "requires": "5.0.4"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-text",
+          "version": {
+            "requires": "1.8"
+          }
+        },
+        {
+          "group": "org.pf4j",
+          "module": "pf4j",
+          "version": {
+            "requires": "3.2.0"
+          }
+        },
+        {
+          "group": "org.projectlombok",
+          "module": "lombok",
+          "version": {
+            "requires": "1.18.12"
+          }
+        },
+        {
+          "group": "org.pushing-pixels",
+          "module": "radiance-substance",
+          "version": {
+            "requires": "2.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "varrockSmither-0.1.0.jar",
+          "url": "varrockSmither-0.1.0.jar",
+          "size": 6378,
+          "sha512": "c35d3c8614628c7f266b511bb9645418e39ae55dbaa5abee80195976147844b898fa7eb24584aa342520ddc1dc354b0ebe1a21c2e89ed66e4a94c10087122ac8",
+          "sha256": "86d0b8e2cf03d8a54a64b8bdca2cf8c738939f21ad228d38c29d961e2e9000f8",
+          "sha1": "bfcdb439a96b0659d7330285b7982344fc3fd227",
+          "md5": "685f03337486ed7236259366275e4154"
+        }
+      ]
+    }
+  ]
+}
